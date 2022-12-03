@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, View ,Text} from 'react-native';
 import MyButton from '../components/MyButton';
 
-export default function ChatsScreen() {
+export default function ChatScreen() {
   
   return (
     <View style={styles.container}>
