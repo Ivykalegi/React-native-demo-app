@@ -6,11 +6,11 @@ export default function ContactUsScreen() {
   
   return (
     <View style={styles.container}>
-      <MyButton details= "Cool shinny button"></MyButton>
+      <MyButton details= "button"></MyButton>
       <Button title= "Contacts" color="red" >
 
       </Button>
-      <Text>Contact us page</Text>
+     
       <StatusBar style="auto" />
       </View>
   );

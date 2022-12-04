@@ -6,11 +6,10 @@ export default function AboutUsScreen({navigation}) {
   
   return (
     <View style={styles.container}>
-      <MyButton details= "Cool shinny button"></MyButton>
+      <MyButton details= "button"></MyButton>
       <Button title= "About US" color="red" >
 
       </Button>
-      <Text> About Us page</Text>
       <Button
       title="Go to Home screen"
       onPress={() =>

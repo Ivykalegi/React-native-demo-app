@@ -6,11 +6,10 @@ export default function ChatScreen() {
   
   return (
     <View style={styles.container}>
-      <MyButton details= "Cool shinny button"></MyButton>
+      <MyButton details= "button"></MyButton>
       <Button title= "Messages" color="red" >
 
       </Button>
-      <Text>Chats screen page</Text>
       <StatusBar style="auto" />
       </View>
   );
