@@ -1,17 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, View, Text } from 'react-native';
 import MyButton from '../components/MyButton';
+import { Avatar } from '@rneui/themed';
+
 
 export default function HomeScreen({ navigation }) {
   
   
   return (
     <View style={styles.container}>
-      <MyButton details= "Cool shinny button"></MyButton>
+      <Avatar
+        size={100}
+        rounded
+        source={{ uri: "https://randomuser.me/api/portraits/men/36.jpg" }}
+      />
+
+      <MyButton details= "button"></MyButton>
       <Button title= "learn more" color="red" >
 
       </Button>
-      <Text> HomeScreen page</Text>
+      
       <Button
       title="Go to About us"
       onPress={() =>
